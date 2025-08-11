@@ -60,7 +60,7 @@ body {
 @media (min-width: 992px) {
   .hero-banner,
   .carousel-banner {
-    height: 70vh;
+    height: 80vh;
   }
 }
 form {
@@ -130,7 +130,7 @@ section span {
 }
 .carousel .carousel-track {
   display: flex;
-  transition: transform 0.5s ease-in-out;
+  /*transition: transform 0.5s ease-in-out;*/
 }
 .carousel .carousel-item {
   position: relative;
@@ -262,7 +262,7 @@ section span {
   }
   .carousel-banner .carousel-img {
     object-fit: cover;
-    height: 80vh;
+    height: 100vh;
   }
 }
 @media (min-width: 992px) {
